@@ -10,7 +10,7 @@ EXT_COMPR = ['zip', 'zipx', 'rar', '7z']
 EXT_INSTL = ['exe', 'jar', 'bat', 'apk', 'iso', 'msi']
 
 dirname = os.path.dirname(__file__)
-BASE_PATH = os.path.join(dirname, 'INSTERT PATH HERE') # Folder to move into, use \\ per directory
+BASE_PATH = os.path.join(dirname, 'INSERT PATH HERE') # Folder to move into, use \\ per directory
 DOWN_PATH = os.path.dirname('C:\\Users\\YOURNAME\\Downloads\\Downloads') # folder to look into, use \\ per directory
 DEST_DIRS = ['Audio', 'Video', 'Images', 'Documents', 'Compressed', 'Installers', 'Other']
 
